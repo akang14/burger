@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Eat the Burger</title>
+    <link rel="stylesheet " href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B "
+        crossorigin="anonymous ">
+    <link rel="stylesheet " href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+    <div class="container-fluid" id="wrapper1">
+
+        <div class="row justify-content-center">
+            <div class="col-md-auto">
+              <img id="banner" src="https://i.gifer.com/origin/64/649852e53b7e4edf15ea1c2f23a61f29_w200.gif" style="width:160px;height:160px; margin-right: 10px;">
+                <img id="banner" src="http://pixelartmaker.com/art/93c75a813001ef3.png" style="width:200px;height:200px">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="wrapper2">
+
+        {{{body}}}
+
+        <form action="/burger/create" method="POST">
+
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input id="newBurger" type="burger_name" class="form-control" id="burgerName" aria-describedby="burger_name" name="burger_name"
+                            placeholder="Enter the name of your burger">
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-auto">
+                            <button id="burgerSubmit">Add the Burger!</button>
+                        </div>
+                    </div>
+                </div>
+        </form>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49
+        " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js " integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em
+        " crossorigin="anonymous "></script>
+
+
+</body>
+
+
+</html>
